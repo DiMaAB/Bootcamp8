@@ -1,0 +1,71 @@
+*{
+margin: 0;
+padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Nunito+Sans|Work+Sans');
+.header::after{
+	content: '';   
+	display: block;   
+	clear: both; 
+}
+.header{
+	width: 1366px;
+	margin:auto;
+}
+.nav-header{
+	width:1170px;
+	margin: 38px auto;
+}
+.logo-img{
+	width: 31px;
+	height: 25px;
+}
+a{
+	text-decoration: none;
+}
+ul{
+	text-decoration: none;
+}
+
+
+
+
+
+
+/* .imge{
+	float: left;
+	margin: 20px 0 0 30px;
+	}
+
+
+.menu-item a:hover{
+	color:#00FFFF;
+}
+.header-menu{
+text-align: right;
+float: right;
+margin: 20px 30px 0 0;
+}
+.menu-item{
+	display: inline;
+	}
+.pfolio-title{
+	text-align: center;
+}
+.pfolio-subttitle{
+	text-align: center;
+}	
+
+.main{
+padding-top:20px;
+}
+.pholio-imgs{
+	list-style-type: none;
+		float: left;   
+		margin: 4px; 
+	}
+	.footer-menu-item{
+		list-style-type: none;
+
+	}
+	 */
