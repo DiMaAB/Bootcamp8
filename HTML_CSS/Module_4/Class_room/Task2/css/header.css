@@ -1,0 +1,86 @@
+.info-item{
+    float: left ;
+    list-style-type: none;
+    margin-right: 40px;
+    position: relative;
+    padding-left: 20px; 
+}
+ul{
+    list-style: none;
+}
+.info{
+    float: left;
+}
+.header{
+   border-bottom: 1px solid grey;
+   padding: 20px 0 0 30px;
+
+}
+.info-item_mail{
+    position: relative;
+}
+.info-item_tel{
+    position: relative;
+}
+.header-small{
+    margin: auto;
+    /* padding-top: 20px; */
+    width: 1170px;
+    /* border-bottom: 1px solid black; */
+    
+}
+/* .info-item:before{
+background-image: url(./img/Mail.pngS);
+
+} */
+.float{
+    float: right;
+}
+.info-item_mail:before{
+    width: 18px;
+    height: 11px;
+    content: "";
+    background-image: url(../img/Mail.png);
+    
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -25px;
+    top: 4px;
+    display: block;
+}
+.info-item_tel:before{
+    width: 18px;
+    height: 13px;
+    content: "";
+    background-image: url(../img/Phone\ .png);
+  
+    background-repeat: no-repeat;
+    position: absolute;
+    left: -18px;
+    top:3px;
+    display: block;
+}
+.header-menu{
+ 
+    padding-top: 20px;
+    float: left;
+}
+
+.logo{
+    float: left;
+}
+/* .header-menu2{
+    float: right;
+    } */
+    .nav-header{
+        width: 1170px;
+        margin: auto;
+    }
+    .float-left{
+        float: left;
+    }
+    .float-right{
+        float: right;
+        margin-top:15px;
+    }
+   

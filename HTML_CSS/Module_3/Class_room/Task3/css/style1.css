@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+img, a{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+ul{
+    list-style: none;
+}
+
+.header{
+    width: 1366px;
+    margin: auto;
+}
+
+.nav-header{
+    width: 1170px;
+    margin: 38px auto;
+}
+
+.logo-img{
+    width: 31px;
+    height: 25px;
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo, .menu-item {
+    float: left;
+}
+
+.menu-item {
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000;
+    font-weight: bold;
+}
+
+.menu-item:hover > a{
+    color:#ade7e4;
+}
+
+.header-menu {
+    float: right;
+    
+}
+
+
+
+
+.text{
+    width: 365px;
+    float: right;
+}
+
+.section{
+padding-top: 150px;
+padding-right: 150px;
+}
+.title{
+    line-height: 40px; 
+}
+.title_p{
+    line-height: 20px;
+    padding-top: 20px;
+}
+.title_a{
+    margin-top: 40px;
+    padding: 20px 45px;
+    border: none solid black;
+    line-height: 40px;
+    background-color: blue;
+    color:white;
+    display:block;
+}
+
+
+/*block2*/
+.title2{
+    text-align: center;
+}
+.title_p2{
+    font-size: 16px;
+}
+
+
+
+
+/* Part Main */
+.main{
+    width: 1366px;
+    margin: auto;
+    background-image: url(../img/image2.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-repeat: repeat-x; */
+}
+.main1 {
+    width: 1366px;
+    margin: auto;
+    background-image: url(../img/image1.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.pfolio-title{
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #171717;
+}
+
+.pfolio-subtitle{
+    padding: 30px 0 97px;
+    width: 512px;
+    margin: auto;
+    font-family: 'Nunito Sans', sans-serif;    
+    font-size: 18px; 
+    font-weight: 300;
+    color: #b9b9b9; 
+    text-align: center;  
+}
+
+
+
+.pfolio-item{
+    width: 341px;
+    height: 300px;        
+}
+.footer {
+    width: 1366px;
+    margin: auto;
+    background-color: #141414;
+}
+
+.container{
+    width: 1170px;
+    margin: auto;
+    padding: 100px 0;
+}
+
+.info-title{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.info, .contact, .footer-menu a {   
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color: #acacac;
+}
+
+.info, .contact, .footer-nav, .footer-menu {   
+    float: left;
+}
+
+.contact {
+    margin-left: 246px;
+}
+
+.footer-nav {
+    margin-left: 145px;
+}
+
+.news{
+    margin-left: 55px;
+}
+
+.social{
+    margin-left: 135px;
+}
