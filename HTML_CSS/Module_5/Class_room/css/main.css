@@ -1,0 +1,31 @@
+.main{
+    background-image: url(../img/FeaturedBg.png);
+}
+.title{
+    color:orange;
+    font-size: 52px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+.title_p{
+    margin-bottom: 40px;
+
+}
+.otstyp{
+    padding: 50px 0 100px 100px;
+   }
+   .title_sp{
+       position: relative;
+       color:orange;
+   }
+   .title_sp::before{
+    width: 25px;
+    height: 20px;
+    content: "";
+    background-image: url(../img/Cart.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    left: -25px;
+
+   }

@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.section{
+    margin: auto;
+    width: 1168px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    padding: 55px 0;
+    align-items: center;
+}
+.menu{
+display: flex;
+justify-content: space-between;
+width: 240px;
+list-style: none;
+}
+.logo{
+    text-transform: uppercase;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 700;
+    margin-right: 200px;
+}
+.main{
+    background-image: url(../img/Fon.png);
+    background-size: cover;
+}
+.main_gallery{
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-between;
+ 
+}
+.gallery_item{
+    width: 268px;
+    height: 268px;
+    list-style: none;
+   margin-top: 20px;
+   border: 1px solid white;
+
+}
+.item_img{
+    width: 268px;
+    height: 100%;
+    display: block;
+}
