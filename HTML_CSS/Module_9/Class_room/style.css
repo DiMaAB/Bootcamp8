@@ -1,0 +1,22 @@
+
+.row div:nth-child(even){
+    background-color: rgb(115, 73, 73);
+    border: 1px solid red;
+    min-height: 80px;
+    text-align: center;
+}
+.bg{
+    background-color: yellow;
+    color: white;
+    height: 500px;
+}
+.row div:nth-child(odd){
+    background-color: rgb(187, 73, 73);
+    border: 1px solid red;
+    min-height: 80px;
+    text-align: center;
+}
+.wr{
+    display: flex;
+    justify-content: center;
+}
