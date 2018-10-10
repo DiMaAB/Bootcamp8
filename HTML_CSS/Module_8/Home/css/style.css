@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/montserrat-v12-latin-regular.woff') format('woff2'),
+         url('../fonts/montserrat-v12-latin-regular.woff2') format('woff');
+  }
+
+  
+  @font-face{
+    font-family: 'roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-v18-latin-italic.woff2') format('woff2')
+         url('../fonts/roboto-v18-latin-italic.woff') format('woff');
+  }
+  @font-face{
+    font-family: 'indie-flower';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/indie-flower-v9-latin-regular.woff') format('woff2')
+         url('../fonts/indie-flower-v9-latin-regular.woff2') format('woff');
+  }
+  @font-face{
+    font-family: 'roboto-slab';
+    font-style: italic;
+    font-weight: 300;
+    src: url('../fonts/roboto-slab-v7-latin-regular.woff') format('woff2'),
+         url('../fonts/roboto-slab-v7-latin-regular.woff2') format('woff');
+  }
+
+img{
+    display: block;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.logo a{
+    font-size: 26px;
+    color: #fed136;
+    font-family: 'Poppins';
+}
+.header-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    list-style: none;
+}
+.header{
+    width: 1170px;
+    margin: auto;
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+ }
+.menu-item {
+    margin-left: 30px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    }
+.menu-item:hover > a{
+    color: #fed136;
+   
+}
+.title_zag{
+    font-family: 'roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center; 
+    padding-bottom: 40px; 
+    color: rgba(119, 119, 119, 255);
+}
+.title_zm{
+    font-family: 'roboto-slab', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+   
+    text-align: center; 
+    padding-bottom: 20px; 
+    color: black;
+    padding-top: 50px;
+}
+.title_z{
+    font-family: 'roboto-slab', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center; 
+    padding: 50px 0 20px 0; 
+    color: white;
+  
+}
+
+.menu{
+    width: 1170px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    justify-content: space-between;
+    padding-left: 50px;
+    margin-top: 50px;
+}
+.menu-img{
+    display: flex;
+    width: 330px;
+    flex-direction: column;
+    align-items: center;
+}
+.text{
+    width: 270px;
+    text-align: center;
+   padding-top: 20px;
+    margin-bottom: 80px;
+}
+.zag{
+    margin-bottom: 10px;
+    font-family: 'roboto-slab';
+   
+    font-weight: bold;
+    /* text-transform: uppercase; */
+    font-size: 18px;
+    color: rgba(34, 34, 34, 255);
+    font-weight: 500;
+}
+.par{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgba(119, 119, 119, 255);
+   }
+.main{
+   margin: auto;
+   
+    width: 1250px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+ .footer{
+      background-image: url(../img/Map\ Image@1X.png);
+      background-color: #222222;
+      background-repeat: no-repeat;
+      background-position: 100% 90%;
+      width: 100%;
+      margin: auto;
+  }
+  .footer_text{
+      padding-left: 50px;
+      width: 300px;
+      font-size: 14px;
+      font-family: 'Montserrat', sans-serif;
+     }
+
+    .buttom{
+        background-color: #fed136;
+        color: rgba(255, 255, 255, 255);
+        font-size: 18px;
+        font-family: 'Montserrat';
+        font-weight: bold;
+        padding: 20px;
+        margin: auto;
+        height: 60px;
+        width: 240px;
+        border: none;
+        text-indent: 6px;
+    }  
+     .pos{
+          display: flex;
+          flex-direction: column;
+      }
+      .wrapper{
+         
+          display: flex;
+          justify-content: space-between;
+          flex-wrap: wrap;
+          padding-bottom: 50px;
+          margin: auto;
+          width: 950px;
+          }
+          .box{
+              width: 455px;
+              height: 221px;
+              
+          }
+          input::placeholder{
+            color: rgba(187, 187, 187, 255);
+              font-family: 'Montserrat';
+              font-size: 14px;
+              font-weight: bold;
+              text-transform: uppercase;
+              padding: 10px 0 10px 10px;
+          }
+
+         
+           textarea::placeholder{
+            color: rgba(187, 187, 187, 255);
+            font-family: 'Montserrat';
+            font-size: 14px;
+            font-weight: bold;
+            text-transform: uppercase;
+            padding: 10px 0 10px 10px;
+          } 
+          .zapoln{
+              width: 455px;
+              height: 50px;
+              margin-bottom: 30px;
+          }
+        
+      
+  
+

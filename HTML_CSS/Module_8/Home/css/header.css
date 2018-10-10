@@ -1,0 +1,144 @@
+.header{
+    background-color: rgba(99, 96, 96, 1);
+    background-image: url(../img/Vector\ Smart\ Object@1X.png);
+    width: 320px;
+    margin: auto;
+    padding-bottom: 140px;
+    padding-top: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header-flex{
+    display: flex;
+    width: 320px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+   
+}
+.logo_but {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 255);
+    width: 90px;
+    text-decoration: none;
+    text-align: center;
+    padding: 5px;
+    margin-right: 10px;
+    
+}
+
+.logo_but:hover{
+    border: 2px solid white;
+    border-radius: 30px;
+}
+.logo_but1{
+     width: 210px;
+     text-align: center;
+     /* order: 1; */
+}
+.title h2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    margin: 30px 0 40px 0;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+      /* order: 0; */
+    width: 260px;
+
+}
+.title2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    width: 276px;
+    font-size: 26px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    margin: auto;
+}
+.title3{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    font-size: 18px;
+    width: 220px;
+    margin: 20px auto 20px;
+    text-align: center;
+}
+.buttom{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: block;
+    color: white;
+    width: 270px;
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+    background-color: #ff4e50;
+    border-radius: 25px;
+    text-decoration: none;
+}
+@media (min-width:768px) {
+.header{
+    width: calc(384px*2);
+    padding-top: 50px;
+    padding-bottom: 240px;
+    background-image: url(../img/Vector\ Smart\ Object2@1X.png);
+    background-position: center;
+    padding-top: 10px;
+}
+
+ .title2{
+    font-size: 52px;
+    font-weight: bold;
+    width: 500px;
+    text-align: center;
+}
+.title3{
+    font-weight: 300;
+    font-size: 24px;
+    width: 400px;
+}
+.header-flex{
+    width: 788px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 160px;
+}
+.title{
+    
+    width: 300px;
+    
+}
+.logo_but1{
+    width: 250px;
+}
+.buttom{
+    width: 226px;
+}
+}
+@media (min-width:1439px) {
+    .header{
+        width: 1440px;
+        background-image: url(../img/Vector\ Smart3\ Object@1X.png);
+        background-position:  center;
+        padding-top: 0;
+    }
+    .header-flex{
+        width: 1088px;
+        margin: auto;
+        justify-content: space-between;
+        margin-bottom: 160px;
+
+    }.title{
+        margin: 0;
+        
+    }
+    .title3{
+        margin: 40px auto 30px;
+     
+    }
+}

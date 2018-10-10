@@ -1,0 +1,195 @@
+.main{
+    width: 320px;
+    margin: auto;
+    padding-top: 70px;
+}
+.main-title{
+    font-weight: bold;
+    width: 260px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    margin: auto;
+    margin-bottom: 15px;
+}
+.imge{
+    display: block;
+    border-radius: 100%;
+    margin: auto;
+    margin-bottom: 20px;
+}
+.image{
+   position: relative;
+}
+.image:after{
+    width: 45px;
+    height: 33px;
+    content: '';
+    background-image: url(../img/Shape-tv.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 180px; 
+    display: block;
+}
+.image2{
+    position: relative;
+ }
+ .image2:after{
+     width: 45px;
+     height: 38px;
+     content: '';
+     background-image: url(../img/Shape-battle.png);
+     background-repeat: no-repeat;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     left: 180px; 
+     display: block;
+ }
+ .image3{
+    position: relative;
+ }
+ .image3:after{
+     width: 45px;
+     height: 36px;
+     content: '';
+     background-image: url(../img/Shape-cup.png);
+     background-repeat: no-repeat;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     left: 180px; 
+     display: block;
+ }
+ .image4{
+    position: relative;
+ }
+ .image4:after{
+     width: 45px;
+     height: 36px;
+     content: '';
+     background-image: url(../img/Shape-plane.png);
+     background-repeat: no-repeat;
+     position: absolute;
+     right: 0;
+     bottom: 0;
+     left: 180px; 
+     display: block;
+ }
+.main-title2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.buttom2{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    display: block;
+    color: #ff4e50;
+    font-weight: bold;
+    width: 230px;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid #ff4e50;
+    border-radius: 25px;
+    text-decoration: none;
+    margin: 20px auto 40px ;
+}
+.text{
+    font-family: 'Roboto', sans-serif;
+    width: 210px;
+   color: rgba(102, 102, 102, 255);
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.flex-item{
+    width: 300px;
+}
+.image-flex{
+    width: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   
+}
+@media(min-width: 768px){
+    .main{
+    width: 768px;
+ }
+
+.flex-item{
+  
+    width: 300px;
+}
+.image-flex{
+    /* display: flex; */
+    width: 650px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-title{
+    width: 400px;
+}
+.buttom2{
+    width: 200px;
+}
+.flex-item{
+    order: 1;
+}
+.flex-item2{
+    order: 3;
+}
+.flex-item3{
+    order: 2;
+}.flex-item4{
+    order: 4
+}
+.main-title{
+    margin-bottom: 30px;
+}
+}
+@media(min-width: 1440px){
+    .main{
+    width: 1440px;
+ }
+
+.flex-item{
+  
+    width: 300px;
+}
+.image-flex{
+    /* display: flex; */
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+.main-title{
+    width: 400px;
+}
+.buttom2{
+    width: 200px;
+}
+.flex-item{
+    order: 1;
+}
+.flex-item2{
+    order: 3;
+}
+.flex-item3{
+    order: 2;
+}.flex-item4{
+    order: 4
+}
+.main-title{
+    margin-bottom: 30px;
+}
+}
