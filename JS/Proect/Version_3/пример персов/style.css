@@ -1,0 +1,381 @@
+.but{
+  margin: 200px;
+}
+
+/* .kick{
+    width: 128px;
+    height: 140px;
+    background-image: url(./css_sprites.png);
+    animation: moveX 0.5s steps(4) infinite;
+    position: absolute;
+    top: 100px;
+  } */
+  .kickOneL{
+    width: 128px;
+    height: 140px;
+     /* background-repeat: no-repeat; */
+    animation: moveX 1.3s steps(4) 1;
+    position: absolute;
+    /* top: 100px; */
+    transform: scaleX(-1);
+    margin-left: 700px;
+  }
+  .kickOneL_Colossus{
+    background-image: url(./1Per/hit-stomach.png);
+  }
+  .kickOneL_Mystique{
+    background-image: url(./4Per/Hit_stomach.png);
+  }
+  .kickOneL_Red{
+    background-image: url(./Per3/Hit_stomach.png);
+  }
+  .kickOneL_Star{
+    background-image: url(./2Pers/Hit_stomach.png);
+  }
+  .kickLOneS{
+    width: 128px;
+    height: 140px;
+    animation: moveX 0.7s steps(4)  1;
+    position: absolute;
+    margin-left: 630px;
+  }
+  .kickLOneS_Colossus{
+    background-image: url(./1Per/hit-stomach.png);
+  }
+  .kickLOneS_Mystique{
+    background-image: url(./4Per/Hit_stomach.png);
+  }
+  .kickLOneS_Red{
+    background-image: url(./Per3/Hit_stomach.png);
+  }
+  .kickLOneS_Star{
+    background-image: url(./2Pers/Hit_stomach.png);
+  }
+  
+  @keyframes moveX{
+    from{background-position-x:0px;}
+    to{background-position-x:-592px;}
+  }
+  .deadRight{
+      width: 128px;
+  height: 140px;
+  animation: deadKey 1.5s steps(6) 1;
+  position: absolute;
+  left: 1px;
+  margin-left: 1200px;
+  transform: scaleX(-1);
+  }
+  .deadRight_Colossus{
+    background-image: url(./1Per/death.png);
+  }
+  .deadRight_Mystique{
+    background-image: url(./4Per/death.png);
+  }
+  .deadRight_Red{
+    background-image: url(./Per3/death.png);
+  }
+  .deadRight_Star{
+    background-image: url(./2Pers/death.png);
+  }
+  .deadLeft{
+  width: 128px;
+height: 140px;
+
+animation: deadKey 1.5s steps(6) 1;
+position: absolute;
+left: 1px;
+margin-left: 0px;
+
+}
+.deadLeft_Colossus{
+  background-image: url(./1Per/death.png);
+}
+.deadLeft_Mystique{
+  background-image: url(./4Per/death.png);
+}
+.deadLeft_Red{
+  background-image: url(./Per3/death.png);
+}
+.deadLeft_Star{
+  background-image: url(./2Pers/death.png);
+}
+  @keyframes deadKey{
+    from{background-position-x:0px;}
+    to{background-position-x:-888px;}
+  }
+   .gansAtackL{
+    width: 140px;
+  height: 140px;
+  animation: gansKey 1.3s steps(4) infinite;
+  position: absolute;
+  margin-left: 630px;
+  transform: scaleX(-1);
+  }
+  .gansAtackL_Colossus{
+    background-image: url(./1Per/hit_leg.png);
+  }
+  .gansAtackL_Mystique{
+    background-image: url(./4Per/Hit_leg.png);
+  }
+  .gansAtackL_Red{
+    background-image: url(./Per3/Hit_leg.png);
+  }
+  .gansAtackL_Star{
+    background-image: url(./2Pers/Hit_leg.png);
+  }
+  .gansAtackR{
+    width: 140px;
+  height: 140px;
+  animation: gansKey 1.3s steps(4) infinite;
+  position: absolute;
+  margin-left: 630px;
+  }
+  .gansAtackR_Colossus{
+    background-image: url(./1Per/hit_leg.png);
+  }
+  .gansAtackR_Mystique{
+    background-image: url(./4Per/Hit_leg.png);
+  }
+  .gansAtackR_Red{
+    background-image: url(./Per3/Hit_leg.png);
+  }
+  .gansAtackR_Star{
+    background-image: url(./2Pers/Hit_leg.png);
+  }
+  @keyframes gansKey{
+    from{background-position-x:0px;}
+    to{background-position-x:-592px;}
+  }
+  .runPrRight{
+    width: 128px;
+    height: 140px;
+    animation: runAnim 0.5s steps(6) 6 ,runPrRight 2.1s ease-out	;
+    position: absolute;
+     transform: scaleX(-1)
+  }
+  .runPrRight_Colossus{
+    background-image: url(./1Per/Run.png);
+  }
+  .runPrRight_Mystique{
+    background-image: url(./4Per/Run.png);
+  }
+  .runPrRight_Red{
+    background-image: url(./Per3/Run.png);
+  }
+  .runPrRight_Star{
+    background-image: url(./2Pers/Run.png);
+  }
+  @keyframes runAnim{
+    from{background-position-x:0px;}
+    to{background-position-x:-888px;}
+  }
+  @keyframes runPrRight{
+    from{margin-left: 1200px}
+    to{margin-left: 700px;}
+  }
+  .runPrLeft{
+    width: 128px;
+    height: 140px;
+    margin-left: 1280px;
+    animation: runAnim 0.5s steps(6) 6 ,runPrLeft 2.1s ease-out	;
+    position: absolute;
+  }
+  .runPrLeft_Colossus{
+    background-image: url(./1Per/Run.png);
+  }
+  .runPrLeft_Mystique{
+    background-image: url(./4Per/Run.png);
+  }
+  .runPrLeft_Red{
+    background-image: url(./Per3/Run.png);
+  }
+  .runPrLeft_Star{
+    background-image: url(./2Pers/Run.png);
+  }
+
+  @keyframes runPrLeft{
+    0%{margin-left: 0px}
+    100%{margin-left: 620px;}
+  }
+  .backOne{
+        width: 128px;
+    height: 140px;
+    animation: runAnim 0.5s steps(6) 6 ,runBackO 2s forwards;
+    position: absolute;
+  }
+  .backOne_Colossus{
+    background-image: url(./1Per/Run.png);
+  }
+  .backOne_Mystique{
+    background-image: url(./4Per/Run.png);
+  }
+  .backOne_Red{
+    background-image: url(./Per3/Run.png);
+  }
+  .backOne_Star{
+    background-image: url(./2Pers/Run.png);
+  }
+  @keyframes runBackO{
+    from{margin-left: 700px}
+    to{margin-left: 1200px;}
+  }
+  .backTwo{
+    width: 128px;
+    height: 140px;
+    margin-left: 1200px;
+    animation: runAnim 0.5s steps(6) 6 ,runBackT 2s forwards;
+    position: absolute;
+    transform: scaleX(-1);
+  }
+  .backTwo_Colossus{
+    background-image: url(./1Per/Run.png);
+  }
+  .backTwo_Mystique{
+    background-image: url(./4Per/Run.png);
+  }
+  .backTwo_Red{
+    background-image: url(./Per3/Run.png);
+  }
+  .backTwo_Star{
+    background-image: url(./2Pers/Run.png);
+  }
+  @keyframes runBackT{
+    0%{margin-left: 620px}
+    100%{margin-left: 0px;}
+  }
+  .jumpLeft{
+    width: 128px;
+  height: 148px;
+  animation: jumpTo 1s steps(3) infinite;
+  position: absolute;
+  transform: scaleX(-1);
+  margin-left: 700px;
+  }
+  .jumpLeft_Colossus{
+    background-image: url(./1Per/hit_head.png);
+  }
+  .jumpLeft_Mystique{
+    background-image: url(./4Per/Hit_head.png);
+  }
+  .jumpLeft_Red{
+    background-image: url(./Per3/jump.png);
+  }
+  .jumpLeft_Star{
+    background-image: url(./2Pers/Hit_head.png);
+  }
+  .jumpRiht{
+    width: 128px;
+  height: 148px;
+  animation: jumpTo 1s steps(3) infinite;
+  position: absolute;
+  margin-left: 700px;
+  }
+  .jumpRiht_Colossus{
+    background-image: url(./1Per/hit_head.png);
+  }
+  .jumpRiht_Mystique{
+    background-image: url(./4Per/Hit_head.png);
+  }
+  .jumpRiht_Red{
+    background-image: url(./Per3/jump.png);
+  }
+  .jumpRiht_Star{
+    background-image: url(./2Pers/Hit_head.png);
+  }
+  @keyframes jumpTo{
+    from{background-position-x:0px;}
+    to{background-position-x:-444px;}
+  }
+  
+
+  .statikOneR{
+    width: 128px;
+    height: 148px;
+    animation: statiS 0.5s steps(3) infinite;
+    position: absolute;
+    margin-left: 0px;
+ 
+  }
+  .statikOneR_Colossus{
+    background-image: url(./1Per/statick.png);
+  }
+  .statikOneR_Mystique{
+    background-image: url(./4Per/statick.png);
+  }
+  .statikOneR_Red{
+    background-image: url(./Per3/static.png);
+  }
+  .statikOneR_Star{
+    background-image: url(./2Pers/statick.png);
+  }
+  .statikTwoL{
+    width: 128px;
+    height: 148px;
+    animation: statiS 0.5s steps(3) infinite;
+    position: absolute;
+    margin-left: 1200px;
+    transform: scaleX(-1);
+ 
+  }
+  .statikTwoL_Colossus{
+    background-image: url(./1Per/statick.png);
+  }
+  .statikTwoL_Mystique{
+    background-image: url(./4Per/statick.png);
+  }
+  .statikTwoL_Red{
+    background-image: url(./Per3/static.png);
+  }
+  .statikTwoL_Star{
+    background-image: url(./2Pers/statick.png);
+  }
+  @keyframes statiS{
+    from{background-position-x:0px;}
+    to{background-position-x:-444px;}
+  }
+ 
+ 
+  .blockRight{
+    width: 128px;
+    height: 148px;
+    animation: blok 0.5s steps(3) 0.7s 1;
+    position: absolute;
+    left :630px;
+  }
+  .blockRight_Colossus{
+    background-image: url(./1Per/block.png);
+  }
+  .blockRight_Mystique{
+    background-image: url(./4Per/block.png);
+  }
+  .blockRight_Red{
+    background-image: url(./Per3/block.png);
+  }
+  .blockRight_Star{
+    background-image: url(./2Pers/Block.png);
+  }
+  .blockLeft{
+    width: 128px;
+    height: 148px;
+    animation: blok 0.5s steps(3) 0.7s 1;
+    position: absolute;
+    left :630px;
+    transform: scaleX(-1);
+  }
+  .blockLeft_Colossus{
+    background-image: url(./1Per/block.png);
+  }
+  .blockLeft_Mystique{
+    background-image: url(./4Per/block.png);
+  }
+  .blockLeft_Red{
+    background-image: url(./Per3/block.png);
+  }
+  .blockLeft_Star{
+    background-image: url(./2Pers/Block.png);
+  }
+  @keyframes blok{
+    from{background-position-x:0px;}
+    to{background-position-x:-444px;}
+  }
+ 

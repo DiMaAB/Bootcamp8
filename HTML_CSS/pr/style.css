@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.grapfik{
+    width: 1200px;
+    margin: auto;
+    background-color:#f6f6f6;
+}
+
+.grapfik-title{
+    padding-top: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #171717;
+}
+
+.grapfik-subtitle{
+    padding: 30px 0 97px;
+    width: 512px;
+    margin: auto;
+    font-family: 'Nunito Sans', sans-serif;    
+    font-size: 18px; 
+    font-weight: 300;
+    color: #b9b9b9; 
+    text-align: center;  
+}
+.pfolio{
+    display: flex;
+    flex-wrap: wrap;
+  }
+    .pfolio-img{
+        position: relative;
+        width: 300px;
+        height: 300px;
+        list-style: none;
+    }
+    .pfolio-img:hover .proba {
+       display: flex;
+    }
+    .proba{
+        display: none;
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        background-color: rgba(16, 201, 195, 0.5);
+        background-image: url(./img/pe-7s-look@1X.png);
+        background-repeat: no-repeat;
+        background-position:  center;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%); 
+    }

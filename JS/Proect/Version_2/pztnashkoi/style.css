@@ -1,0 +1,225 @@
+.but{
+  margin: 200px;
+}
+
+.first{
+    width: 128px;
+    height: 140px;
+    background-image: url(./css_sprites.png);
+    /* background-repeat: no-repeat; */
+    animation: moveX 0.5s steps(4) infinite;
+    position: absolute;
+top: 100px;
+
+  }
+  .kick{
+    width: 128px;
+    height: 140px;
+    background-image: url(./css_sprites.png);
+    /* background-repeat: no-repeat; */
+    animation: moveX 1.5s steps(4) infinite;
+    position: absolute;
+    /* top: 100px; */
+    transform: scaleX(-1);
+    margin-left: 700px;
+  }
+  .kickL{
+    width: 128px;
+    height: 140px;
+    background-image: url(./css_sprites.png);
+    /* background-repeat: no-repeat; */
+    animation: moveX 1.7s steps(4) infinite;
+    position: absolute;
+    /* top: 100px; */
+    
+    margin-left: 630px;
+  }
+  @keyframes moveX{
+    from{background-position-x:0px;}
+    to{background-position-x:-592px;}
+  }
+  .two{
+      width: 128px;
+  height: 140px;
+  background-image: url(./diesmert.png);
+  /* background-repeat: no-repeat; */
+  animation: moveX2 1s steps(6) infinite;
+  position: absolute;
+  left: 1px;
+  margin-left: 1200px;
+  transform: scaleX(-1);
+  
+  }
+  .two2{
+    width: 128px;
+    height: 140px;
+    background-image: url(./diesmert.png);
+    /* background-repeat: no-repeat; */
+    animation: moveX2 1s steps(6) infinite;
+    position: absolute;
+    left: 1px;
+    margin-left: 0px;
+
+  }
+  @keyframes moveX2{
+    from{background-position-x:0px;}
+    to{background-position-x:-888px;}
+  }
+   .three{
+    width: 140px;
+  height: 140px;
+  background-image: url(./gans.png);
+  animation: moveX3 1.3s steps(4) infinite;
+  position: absolute;
+ 
+  margin-left: 630px;
+
+  }
+  @keyframes moveX3{
+    from{background-position-x:0px;}
+    to{background-position-x:-592px;}
+  }
+  .four{
+    width: 128px;
+    height: 140px;
+    /* background-image: url(./begrun.png); */
+    background-image: url(./1Per/Run.png);
+    animation: move4 0.5s steps(6) 6 ,run 2.1s ease-out	;
+    position: absolute;
+    /* animation: run 3s infinite; */
+  left: 1px;
+  transform: scaleX(-1)
+  }
+  @keyframes move4{
+    from{background-position-x:0px;}
+    to{background-position-x:-888px;}
+  }
+  @keyframes run{
+    from{margin-left: 1200px}
+    to{margin-left: 700px;}
+  }
+  .five{
+    width: 128px;
+    height: 140px;
+    margin-left: 1280px;
+    /* background-image: url(./begrun.png); */
+    background-image: url(./1Per/Run.png);
+    animation: mov5 0.5s steps(6) 6 ,run2 2.1s ease-out	;
+    position: absolute;
+    
+  left: 1px;
+ 
+  }
+  @keyframes mov5{
+    from{background-position-x:0px;}
+    to{background-position-x:-888px;}
+  }
+  @keyframes run2{
+    0%{margin-left: 0px}
+    100%{margin-left: 620px;}
+      /* 100%{background-image: url(./css_sprites.png)
+        ;
+       } */
+  }
+  .back1{
+        width: 128px;
+    height: 140px;
+    background-image: url(./1Per/Run.png);
+    animation: move4 0.5s steps(6) 6 ,run3 2s forwards;
+    position: absolute;
+    /* animation: run 3s infinite; */
+  left: 1px;
+  /* transform: scaleX(-1) */
+  }
+  @keyframes run3{
+    from{margin-left: 700px}
+    to{margin-left: 1200px;}
+  }
+  .back2{
+    width: 128px;
+    height: 140px;
+    margin-left: 1200px;
+    background-image: url(./1Per/Run.png);
+    animation: mov5 0.5s steps(6) 6 ,run4 2s forwards;
+    position: absolute;
+    transform: scaleX(-1);
+  left: 1px;
+ 
+  }
+
+  @keyframes run4{
+    0%{margin-left: 620px}
+    100%{margin-left: 0px;}
+  }
+
+
+
+  .jump{
+    width: 128px;
+  height: 148px;
+  /* background-image: url(./jump.png); */
+  background-image: url(./1Per/hit_head.png);
+  /* background-repeat: no-repeat; */
+  animation: jumpTo 1s steps(3) infinite;
+  position: absolute;
+  transform: scaleX(-1);
+  margin-left: 700px;
+  }
+  @keyframes jumpTo{
+    from{background-position-x:0px;}
+    to{background-position-x:-444px;}
+  }
+  
+
+  .statik{
+    width: 128px;
+    height: 148px;
+    /* background-image: url(./static.png); */
+    background-image: url(./1Per/statick.png);
+    
+    animation: first 0.5s steps(3) infinite;
+    position: absolute;
+    /* left: 1px; */
+    margin-left: 0px;
+ 
+  }
+  .statik2{
+    width: 128px;
+    height: 148px;
+    background-image: url(./1Per/statick.png);
+    animation: first 0.5s steps(3) infinite;
+    position: absolute;
+    /* left: 1px; */
+    
+    margin-left: 1200px;
+    transform: scaleX(-1);
+ 
+  }
+  @keyframes first{
+    from{background-position-x:0px;}
+    to{background-position-x:-444px;}
+  }
+ 
+ 
+  .block{
+    width: 128px;
+    height: 148px;
+   
+    animation: blok 0.5s steps(3) infinite;
+    position: absolute;
+    left :600px;
+ 
+  }
+  @keyframes blok{
+    from{background-position-x:0px;}
+    to{background-position-x:-444px;}
+  }
+.ard{
+   /* background-image: url(./block.png); */
+   background-image: url(./1Per/block.png);
+   /* background-image: url(./block.png); */
+   /* background-image: url(./block.png); */
+   }
+   .brd{
+     
+   }

@@ -1,0 +1,112 @@
+.first{
+    width: 128px;
+    height: 140px;
+    background-image: url(./css_sprites.png);
+    /* background-repeat: no-repeat; */
+    animation: moveX 0.5s steps(4) infinite;
+    position: absolute;
+  left: 1px;
+  }
+  @keyframes moveX{
+    from{background-position-x:0px;}
+    to{background-position-x:-592px;}
+  }
+  .two{
+      width: 128px;
+  height: 140px;
+  background-image: url(./diesmert.png);
+  /* background-repeat: no-repeat; */
+  animation: moveX2 1s steps(6) infinite;
+  position: absolute;
+  left: 1px;
+  margin: 100px;
+  }
+  @keyframes moveX2{
+    from{background-position-x:0px;}
+    to{background-position-x:-888px;}
+  }
+   .three{
+    width: 140px;
+  height: 140px;
+  background-image: url(./gans.png);
+  animation: moveX3 4s steps(4) infinite;
+  position: absolute;
+  left: 1px;
+  margin: 101px;
+  left: 100px;
+
+  transform: scaleX(-1);
+  }
+  @keyframes moveX3{
+    from{background-position-x:0px;}
+    to{background-position-x:-592px;}
+  }
+  .four{
+    width: 128px;
+    height: 140px;
+    background-image: url(./begrun.png);
+    animation: move4 0.5s steps(6) infinite ,run 2s cubic-bezier(0,0,0.58,1);
+    position: absolute;
+    /* animation: run 3s infinite; */
+  left: 1px;
+  transform: scaleX(-1)
+  }
+  @keyframes move4{
+    from{background-position-x:0px;}
+    to{background-position-x:-888px;}
+  }
+  @keyframes run{
+    from{margin-left: 1280px}
+    to{margin-left: 700px}
+  }
+  .five{
+    width: 128px;
+    height: 140px;
+    background-image: url(./begrun.png);
+    animation: mov5 0.5s steps(6) infinite ,run2 2s cubic-bezier(0,0,0.58,1);
+    position: absolute;
+    
+  left: 1px;
+ 
+  }
+  @keyframes mov5{
+    from{background-position-x:0px;}
+    to{background-position-x:-888px;}
+  }
+  @keyframes run2{
+    from{margin-left: 0px}
+    to{margin-left: 620px;
+      background-image: url(./css_sprites.png)}
+  }
+ 
+
+
+
+  .statik{
+    width: 128px;
+    height: 148px;
+    background-image: url(./static.png);
+    animation: first 0.5s steps(3) infinite;
+    position: absolute;
+    left :300px;
+      
+  }
+  @keyframes first{
+    from{background-position-x:0px;}
+    to{background-position-x:-444px;}
+  }
+
+
+  .block{
+    width: 128px;
+    height: 148px;
+    background-image: url(./block.png);
+    animation: blok 0.5s steps(3) infinite;
+    position: absolute;
+    left :600px;
+      
+  }
+  @keyframes blok{
+    from{background-position-x:0px;}
+    to{background-position-x:-444px;}
+  }

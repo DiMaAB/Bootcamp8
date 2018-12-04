@@ -64,9 +64,9 @@ const hotel3 = {
 //     console.log(`${this.name} and ${this.price}`);
 // }
 
-function showInfo(name='User',age=18){
-    console.log(`Hello ${name} you live in ${this.name} and ${this.price} ${age}`);
-}
+// function showInfo(name='User',age=18){
+//     console.log(`Hello ${name} you live in ${this.name} and ${this.price} ${age}`);
+// }
 
 // showInfo.call(hotel);
 // showInfo.call(hotel3);
