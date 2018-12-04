@@ -1,0 +1,19 @@
+.button{
+    display: block;
+    padding: 20px 16px;
+    background-color: yellowgreen;
+    color:#fff;
+    font-size: 12px;
+    transition: 0.5s;
+}
+.button:hover{
+    color: yellowgreen;
+    background-color: #fff;
+    font-size: 15px;
+}
+.form{
+    font-family: serif;
+}
+.text{
+    font-weight: 700;
+}
