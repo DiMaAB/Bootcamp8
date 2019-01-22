@@ -6,7 +6,7 @@
 
 // function eventInfo(){
 //     console.log(event); // выводит информацию о действии которое сейчас произошло.
-//     console.log(event.target);// ключ оьекта ивент в котором сохраняется информация о HTML элементе в котором произошло событие
+//     console.log(event.target);// ключ обьекта ивент в котором сохраняется информация о HTML элементе в котором произошло событие
 // }
 // btn.addEventListener('click',eventInfo)
 
