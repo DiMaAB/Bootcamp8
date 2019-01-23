@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.stopwatch{
+    margin: auto;
+    width: 400px;
+    margin-top: 150px;
+    border: 3px solid black;
+    box-shadow: 1px 2px 36px 5px rgba(20,19,16,1);
+
+
+}
+.laps{
+    margin: auto;
+    width: 100px;
+    list-style: none;
+    margin-top: 30px;
+    font-size: 46px;
+    color: black;
+}
+.js-time{
+    margin: auto;
+    margin-top: 20px;
+    width: 150px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    padding: 10px 50px;
+}
+
+.btn{
+    width: 100px;
+    padding: 10px;
+    margin-left: 23px;
+    margin-bottom: 15px;
+    border-radius: 25px;
+}
+.js-start{
+    background-color: rgba(0,153,51, 0.6);
+
+}
+.js-take-lap{
+    background-color: rgba(255, 229, 31, 0.6)
+}
+.js-reset{
+    background-color:  rgba(219, 20, 20, 0.6);
+}
