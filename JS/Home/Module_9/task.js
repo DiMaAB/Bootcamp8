@@ -40,18 +40,6 @@ let min=i<10 ? `0${i}`: i;
  }
 }
 
-function stopTime(){
-  clearInterval(timEr)
-  start.classList.remove('.move')
-  start.classList.add('js-start')
-}
-
-function Reset(){
-   p.textContent='00:00.0'
-  clearInterval(timer.id)
-  timer.isActife=false;
-}
-
 function circle(){
   let lab=[];
   lab.push(p.textContent);
@@ -61,6 +49,19 @@ for(let el of lab){
   ul.append(li);
  }
 }
+
+function Reset(){
+   p.textContent='00:00.0'
+  clearInterval(timer.id)
+  timer.isActife=false;
+}
+
+function stopTime(){
+  clearInterval(timEr)
+  start.classList.remove('.move')
+  start.classList.add('js-start')
+}
+
 
 start.addEventListener('click', startTimer);
 lap.addEventListener('click',circle)
